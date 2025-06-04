@@ -22,7 +22,8 @@ class HeadlinesFragment : Fragment() {
     private var _binding: FragmentHeadlinesBinding? = null
     private val binding get() = _binding!!
 
-    private val apiKey = "dc0b34773a334b6d99ab0cc5aed0f37b"
+    // please replace your api key here.
+    private val apiKey = "Enter your API key here."
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
